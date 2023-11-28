@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  margin: 10px;
+  text-decoration: underline;
+}
+
+html {
+  background-color: aquamarine;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#customer-details .grid-item {
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: 200px;
+}
+
+#denomination .grid-item {
+  display: grid;
+  grid-template-columns: 35px 150px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: darkgray;
+  border-radius: 10px;
+}
